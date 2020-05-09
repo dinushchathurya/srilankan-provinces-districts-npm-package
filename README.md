@@ -15,7 +15,7 @@ var provinceDistricts = require('srilankan-provinces-districts');
 ```javascript
 // Get All Provinces 
 var provinces = provinceDistricts.getProvinces();
-
+```
 ### Retrieve an array of all Districts in particular Province
 ```javascript
 // Case insensitive
