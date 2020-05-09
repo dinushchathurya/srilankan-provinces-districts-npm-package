@@ -1,0 +1,24 @@
+{
+  "name": "srilankan-provinces-districts",
+  "version": "1.0.0",
+  "description": "This provides all the Provinces and Districts in Sri Lanka",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinushchathurya/srilankan-provicnes-districts-npm-package.git"
+  },
+  "keywords": [
+    "srilanka provinces",
+    "provinces in srilanka",
+    "districts in srilanka"
+  ],
+  "author": "Dinush Chathurya ( DevNinja )",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dinushchathurya/srilankan-provicnes-districts-npm-package/issues"
+  },
+  "homepage": "https://github.com/dinushchathurya/srilankan-provicnes-districts-npm-package#readme"
+}
