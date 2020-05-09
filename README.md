@@ -11,7 +11,7 @@ var provinceDistricts = require('srilankan-provinces-districts');
 
 ## Usage
 
-### Get all U.S. states
+### Get all Srilankan Provinces
 ```javascript
 // Get All Provinces 
 var provinces = provinceDistricts.getProvinces();
