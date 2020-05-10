@@ -3,8 +3,10 @@
 This provides all the Provinces and Districts in Sri Lanka
 
 ## Add it
+```
+$ npm i srilankan-provinces-districts --save
 
-1. $ npm i srilankan-provinces-districts --save
+```
 ```javascript
 var provinceDistricts = require('srilankan-provinces-districts');
 ```
