@@ -1,6 +1,8 @@
-<a href="https://www.patreon.com/bePatron?u=35199964" target="_blank">
-    <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patreon">
-</a>
+<p align="center">
+    <a href="https://www.patreon.com/bePatron?u=35199964" target="_blank">
+        <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patreon">
+    </a>
+</p>
 
 # Provinces Districts
 
