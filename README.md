@@ -1,4 +1,6 @@
-<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png"><a href="https://www.patreon.com/bePatron?u=35199964" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script></a>
+<a href="https://www.patreon.com/bePatron?u=35199964" target="_blank">
+    <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patreon">
+</a>
 
 # Provinces Districts
 
