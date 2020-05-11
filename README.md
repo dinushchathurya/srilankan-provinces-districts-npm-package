@@ -1,7 +1,7 @@
-<a href="https://www.patreon.com/bePatron?u=35199964" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png"><a href="https://www.patreon.com/bePatron?u=35199964" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script></a>
 
 # Provinces Districts
---------------
+
 This provides all the Provinces and Districts in Sri Lanka
 
 ## Add it
