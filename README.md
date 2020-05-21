@@ -1,6 +1,9 @@
 <p align="center">
-    <a href="https://www.patreon.com/bePatron?u=35199964" target="_blank">
-        <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patreon">
+    <a href="https://circleci.com/gh/badges/shields/tree/master">
+            <img src="https://img.shields.io/circleci/project/github/badges/shields/master" alt="build status">
+    </a>
+    <a href="https://coveralls.io/github/badges/shields">
+        <img src="https://img.shields.io/coveralls/github/badges/shields" alt="coverage">
     </a>
 </p>
 
@@ -28,6 +31,10 @@ var provinces = provinceDistricts.getProvinces();
 // Case insensitive
 var districts = provinceDistricts.getDistricts("Western");
 // or 
-var districts = provinceDistricts.getDistricts("Southern");
+var districts = provinceDistricts.getDistricts("southern");
 ```
-
+<p align="center">
+    <a href="https://www.patreon.com/bePatron?u=35199964" target="_blank">
+        <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patreon">
+    </a>
+</p>
