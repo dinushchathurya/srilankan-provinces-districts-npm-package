@@ -9,9 +9,9 @@
     <a href="https://coveralls.io/github/badges/shields">
         <img src="https://img.shields.io/coveralls/github/badges/shields" alt="coverage">
     </a>
-    (https://img.shields.io/badge/downloads-1k%2Fmonth-brightgreen)
-    (https://img.shields.io/badge/rating-★★★★☆-brightgreen)
-    (https://img.shields.io/badge/uptime-100%25-brightgreen)
+    <img src="https://img.shields.io/badge/downloads-1k%2Fmonth-brightgreen">
+    <img src="https://img.shields.io/badge/rating-★★★★☆-brightgreen">
+    <img src="https://img.shields.io/badge/uptime-100%25-brightgreen">
     <img alt="NPM" src="https://img.shields.io/npm/l/srilankan-provinces-districts">
     <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/dinushchathurya/srilankan-provinces-districts-npm-package">
     <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/dinushchathurya/srilankan-provinces-districts-npm-package">
