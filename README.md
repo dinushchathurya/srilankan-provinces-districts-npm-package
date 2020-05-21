@@ -1,10 +1,28 @@
 <p align="center">
+
+   <img alt="GitHub package.json version (branch)" src="https://img.shields.io/github/package-json/v/dinushchathurya/srilankan-provinces-districts-npm-package/master">
+   <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/dinushchathurya/srilankan-provinces-districts-npm-package?include_prereleases">
+   <img alt="Libraries.io dependency status for GitHub repo" src="https://img.shields.io/librariesio/github/dinushchathurya/srilankan-provinces-districts-npm-package">
     <a href="https://circleci.com/gh/badges/shields/tree/master">
             <img src="https://img.shields.io/circleci/project/github/badges/shields/master" alt="build status">
     </a>
     <a href="https://coveralls.io/github/badges/shields">
         <img src="https://img.shields.io/coveralls/github/badges/shields" alt="coverage">
     </a>
+    ![downloads](https://img.shields.io/badge/downloads-1k%2Fmonth-brightgreen)
+    ![rating](https://img.shields.io/badge/rating-★★★★☆-brightgreen)
+    ![uptime](https://img.shields.io/badge/uptime-100%25-brightgreen)
+    <img alt="NPM" src="https://img.shields.io/npm/l/srilankan-provinces-districts">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/dinushchathurya/srilankan-provinces-districts-npm-package">
+    <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/dinushchathurya/srilankan-provinces-districts-npm-package">
+    <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/dinushchathurya/srilankan-provinces-districts-npm-package/total">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/dinushchathurya/srilankan-provinces-districts-npm-package">
+    <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed-raw/dinushchathurya/srilankan-provinces-districts-npm-package">
+    <img alt="GitHub milestones" src="https://img.shields.io/github/milestones/all/dinushchathurya/srilankan-provinces-districts-npm-package">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/dinushchathurya/srilankan-provinces-districts-npm-package">
+    <img alt="Twitter URL" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FDinushChathurya">
+    <img alt="Website" src="https://img.shields.io/website?up_message=online&url=https%3A%2F%2Fdinushchathurya.github.io%2F">
+
 </p>
 
 # Provinces Districts
