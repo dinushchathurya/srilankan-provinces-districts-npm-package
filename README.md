@@ -22,6 +22,7 @@
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/dinushchathurya/srilankan-provinces-districts-npm-package">
     <img alt="Twitter URL" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FDinushChathurya">
     <img alt="Website" src="https://img.shields.io/website?up_message=online&url=https%3A%2F%2Fdinushchathurya.github.io%2F">
+    <img src="https://img.shields.io/badge/made%20with-love%20by%20srilanka-orange">
 
 </p>
 
