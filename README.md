@@ -3,9 +3,6 @@
    <img alt="GitHub package.json version (branch)" src="https://img.shields.io/github/package-json/v/dinushchathurya/srilankan-provinces-districts-npm-package/master">
    <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/dinushchathurya/srilankan-provinces-districts-npm-package?include_prereleases">
    <img alt="Libraries.io dependency status for GitHub repo" src="https://img.shields.io/librariesio/github/dinushchathurya/srilankan-provinces-districts-npm-package">
-    <a href="https://circleci.com/gh/badges/shields/tree/master">
-            <img src="https://img.shields.io/circleci/project/github/badges/shields/master" alt="build status">
-    </a>
     <a href="https://coveralls.io/github/badges/shields">
         <img src="https://img.shields.io/coveralls/github/badges/shields" alt="coverage">
     </a>
