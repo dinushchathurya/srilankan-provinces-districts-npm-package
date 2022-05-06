@@ -6,7 +6,7 @@ exports.getDistricts = function (province) {
     if (!provinces[province]) {
         return null;
     } else {
-        return provinces[province][district];
+        return provinces[province]["district"];
     }
 };
 
