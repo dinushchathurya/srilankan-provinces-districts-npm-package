@@ -1,6 +1,6 @@
 {
   "name": "srilankan-provinces-districts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This provides all the Provinces and Districts in Sri Lanka",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,8 @@
     "srilanka provinces",
     "srilankan provinces and districts",
     "provinces in srilanka",
-    "districts in srilanka"
+    "districts in srilanka",
+    "dinush chathurya"
   ],
   "author": "Dinush Chathurya ( DevNinja )",
   "license": "MIT",
