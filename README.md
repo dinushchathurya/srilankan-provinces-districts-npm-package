@@ -44,10 +44,9 @@ var provinces = provinceDistricts.getProvinces();
 ```
 ### Retrieve an array of all Districts in particular Province
 ```javascript
-// Case insensitive
+
 var districts = provinceDistricts.getDistricts("Western");
-// or 
-var districts = provinceDistricts.getDistricts("southern");
+
 ```
 <p align="center">
     <a href="https://www.patreon.com/bePatron?u=35199964" target="_blank">
