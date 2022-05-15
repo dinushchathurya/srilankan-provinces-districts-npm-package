@@ -1,12 +1,11 @@
 var provinces = require('./data/provinces').provinces;
 
 //Get Districts Based On Province Input
-exports.getDistricts = function (province) {
-    province = province.trim().toUpperCase();
-    if (!provinces[province]) {
-        return null;
-    } else {
-        return provinces[province]["district"];
+exports.getDistricts = function (province) { 
+    if (provinces) { 
+        return provinces[province]['district'] 
+    } else { 
+        return null; 
     }
 };
 
