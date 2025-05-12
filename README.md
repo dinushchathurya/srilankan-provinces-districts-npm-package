@@ -51,6 +51,7 @@ A modern TypeScript package providing data for all provinces and districts in Sr
 - [Contributing](#-contributing)
 - [License](#-license)
 - [Support](#-support)
+- [Author](#-author)
 
 ## ✨ Features
 
@@ -225,20 +226,20 @@ const westernDistricts = getDistrictsByProvince("Western");
 
 ## 🖥️ Framework Examples 
 
-<li>[NodeJS Example](https://github.com/dinushchathurya/srilankan-provinces-districts-npm-package-demo/tree/main/node-demo)</li>
-<li>[ReactJS Example](https://github.com/dinushchathurya/srilankan-provinces-districts-npm-package-demo/tree/main/react-demo)</li>
-<li>[NextJS Example](https://github.com/dinushchathurya/srilankan-provinces-districts-npm-package-demo/tree/main/next-demo)</li>
-<li>[NestJS Example](https://github.com/dinushchathurya/srilankan-provinces-districts-npm-package-demo/tree/main/nest-demo)</li>
+- [NodeJS Example](https://github.com/dinushchathurya/srilankan-provinces-districts-npm-package-demo/tree/main/node-demo)
+- [ReactJS Example](https://github.com/dinushchathurya/srilankan-provinces-districts-npm-package-demo/tree/main/react-demo)
+- [NextJS Example](https://github.com/dinushchathurya/srilankan-provinces-districts-npm-package-demo/tree/main/next-demo)
+- [NestJS Example](https://github.com/dinushchathurya/srilankan-provinces-districts-npm-package-demo/tree/main/nest-demo)
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-- 1.Fork the repository
-- 2.Create your feature branch (`git checkout -b feature/amazing-feature`)
-- 3.Commit your changes (`git commit -m 'Add some amazing feature'`)
-- 4.Push to the branch (`git push origin feature/amazing-feature`)
-- 5.Open a Pull Request</li>
+- Fork the repository
+- Create your feature branch (`git checkout -b feature/amazing-feature`)
+- Commit your changes (`git commit -m 'Add some amazing feature'`)
+- Push to the branch (`git push origin feature/amazing-feature`)
+- Open a Pull Request</li>
 
 ## 📄 License
 
