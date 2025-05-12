@@ -23,32 +23,152 @@
 
 </p>
 
-# Provinces Districts
+# Sri Lankan Provinces & Districts
 
-This provides all the Provinces and Districts in Sri Lanka
+This package provides all Provinces and Districts in Sri Lanka, now with TypeScript support.
 
-## Add it
-```
-$ npm i srilankan-provinces-districts --save
-```
-```javascript
-var provinceDistricts = require('srilankan-provinces-districts');
+## Features
+
+- ✅ Full TypeScript support with type definitions
+- ✅ ES Modules and CommonJS support (dual package)
+- ✅ Complete data for all 9 provinces and 25 districts
+- ✅ Case-insensitive lookup for provinces and districts
+- ✅ Zero dependencies
+- ✅ Backward compatible with v1.x
+
+## Installation
+
+```bash
+npm i srilankan-provinces-districts --save
 ```
 
 ## Usage
 
-### Get all Srilankan Provinces
+### Original API (backward compatible)
+
 ```javascript
-// Get All Provinces 
+// CommonJS
+const provinceDistricts = require('srilankan-provinces-districts');
+
+// Get All Provinces (returns array of province names)
 var provinces = provinceDistricts.getProvinces();
-```
-### Retrieve an array of all Districts in particular Province
-```javascript
-// Case insensitive
+
+// Get Districts in Western Province (returns array of district names)
 var districts = provinceDistricts.getDistricts("Western");
-// or 
-var districts = provinceDistricts.getDistricts("southern");
 ```
+
+### New TypeScript API
+
+```typescript
+// ES Modules
+import { 
+  getProvince, 
+  getAllProvinces, 
+  getAllDistricts, 
+  getDistrictsByProvince,
+  Province,
+  District
+} from 'srilankan-provinces-districts';
+
+// Get all provinces with full data
+const provinces: Province[] = getAllProvinces();
+
+// Get a specific province
+const western: Province | undefined = getProvince('Western');
+console.log(western?.code); // "WP"
+
+// Get all districts
+const allDistricts: District[] = getAllDistricts();
+
+// Get districts in Western province
+const westernDistricts: District[] = getDistrictsByProvince('Western');
+```
+
+## API Reference
+
+### Original API
+
+#### `getProvinces()`
+
+Returns an array of all province names in Sri Lanka.
+
+```javascript
+const provinces = getProvinces();
+// ["Western", "Central", "Southern", "Northern", "Eastern", ...]
+```
+
+#### `getDistricts(provinceName)`
+
+Returns an array of all district names in a specific province.
+
+```javascript
+const districts = getDistricts("Western");
+// ["Colombo", "Gampaha", "Kalutara"]
+```
+
+### New TypeScript API
+
+#### `getAllProvinces()`
+
+Returns an array of all provinces with full data.
+
+```typescript
+interface Province {
+  id: string;    // e.g., "western"
+  name: string;  // e.g., "Western"
+  code: string;  // e.g., "WP"
+}
+
+const provinces = getAllProvinces();
+// [{ id: "western", name: "Western", code: "WP" }, ...]
+```
+
+#### `getProvince(nameOrId)`
+
+Returns a province by name or ID (case-insensitive).
+
+```typescript
+const province = getProvince("Western"); // Also works with "western" or "WESTERN"
+// { id: "western", name: "Western", code: "WP" }
+```
+
+#### `getAllDistricts()`
+
+Returns an array of all districts with full data.
+
+```typescript
+interface District {
+  id: string;        // e.g., "colombo"
+  provinceId: string; // e.g., "western"
+  name: string;      // e.g., "Colombo"
+  code: string;      // e.g., "CMB"
+}
+
+const districts = getAllDistricts();
+// [{ id: "colombo", provinceId: "western", name: "Colombo", code: "CMB" }, ...]
+```
+
+#### `getDistrictsByProvince(provinceNameOrId)`
+
+Returns an array of districts in a specific province.
+
+```typescript
+const westernDistricts = getDistrictsByProvince("Western");
+// [
+//   { id: "colombo", provinceId: "western", name: "Colombo", code: "CMB" },
+//   { id: "gampaha", provinceId: "western", name: "Gampaha", code: "GMP" },
+//   { id: "kalutara", provinceId: "western", name: "Kalutara", code: "KLT" }
+// ]
+```
+
+## Contributing
+
+Pull requests are welcome! Feel free to contribute to this project.
+
+## License
+
+MIT
+
 <p align="center">
     <a href="https://www.patreon.com/bePatron?u=35199964" target="_blank">
         <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patreon">
