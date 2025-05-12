@@ -1,6 +1,6 @@
 {
 	"name": "srilankan-provinces-districts",
-	"version": "2.0.0",
+	"version": "1.0.9",
 	"description": "This provides all the Provinces and Districts in Sri Lanka",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
