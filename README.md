@@ -1,3 +1,5 @@
+# Sri Lankan Provinces & Districts 🇱🇰
+
 <p align="center">
 
    <img alt="GitHub package.json version (branch)" src="https://img.shields.io/github/package-json/v/dinushchathurya/srilankan-provinces-districts-npm-package/master">
@@ -22,14 +24,6 @@
     <img src="https://img.shields.io/badge/made%20with-love%20by%20srilanka-orange">
 
 </p>
-
-# Sri Lankan Provinces & Districts 🇱🇰
-
-![npm version](https://img.shields.io/badge/npm-2.0.0--rc.1-brightgreen)
-![TypeScript](https://img.shields.io/badge/TypeScript-Ready-3178C6)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)
-![Compatibility](https://img.shields.io/badge/compatibility-Node.js%20|%20React%20|%20Next.js%20|%20Nest.js-blue)
 
 A modern TypeScript package providing data for all provinces and districts in Sri Lanka.
 
