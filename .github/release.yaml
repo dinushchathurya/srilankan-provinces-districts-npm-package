@@ -1,0 +1,65 @@
+name: Release
+on:
+  push:
+    tags:
+      - 'v*' # Trigger on tags that start with 'v', e.g., v1.0.0, v2.0.0-rc.1
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          registry-url: 'https://registry.npmjs.org'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Build package
+        run: npm run build
+      
+      - name: Run tests
+        run: npm test
+      
+      - name: Extract version from tag
+        id: extract_version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
+      
+      - name: Check if release candidate
+        id: check_rc
+        run: |
+          if [[ "${{ steps.extract_version.outputs.VERSION }}" == *"-rc."* ]]; then
+            echo "IS_RC=true" >> $GITHUB_OUTPUT
+          else
+            echo "IS_RC=false" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Publish to NPM (Release Candidate)
+        if: steps.check_rc.outputs.IS_RC == 'true'
+        run: npm publish --tag next
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      
+      - name: Publish to NPM (Stable Release)
+        if: steps.check_rc.outputs.IS_RC == 'false'
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: Release v${{ steps.extract_version.outputs.VERSION }}
+          generate_release_notes: true
+          prerelease: ${{ steps.check_rc.outputs.IS_RC == 'true' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
