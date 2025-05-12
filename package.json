@@ -7,9 +7,9 @@
 	"types": "dist/index.d.ts",
 	"exports": {
 		".": {
-		"require": "./dist/index.js",
-		"import": "./dist/index.mjs",
-		"types": "./dist/index.d.ts"
+			"require": "./dist/index.js",
+			"import": "./dist/index.mjs",
+			"types": "./dist/index.d.ts"
 		}
 	},
 	"files": [
@@ -40,8 +40,8 @@
 	},
 	"homepage": "https://github.com/dinushchathurya/srilankan-provicnes-districts-npm-package#readme",
 	"devDependencies": {
-		"typescript": "^5.0.4",
 		"tsup": "^7.2.0",
+		"typescript": "^5.8.3",
 		"vitest": "^0.34.6"
 	}
 }
