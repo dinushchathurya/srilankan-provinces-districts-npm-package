@@ -1,18 +1,14 @@
 /**
- * Interface for province
-*/
-export interface Province {
-	id: string;
-	name: string;
-	code: string;
-}
+ * Re-export all types for easy import
+ */
+export { Province } from './province';
+export { District } from './district';
 
 /**
- * Interface for district
-*/
-export interface District {
-	id: string;
-	provinceId: string;
-	name: string;
-	code: string;
-}
+ * Legacy data structure type for provinces
+ */
+export type LegacyProvinces = {
+    [key: string]: {
+        district: string[];
+    };
+};
