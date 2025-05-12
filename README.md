@@ -152,7 +152,7 @@ console.log(westernDistricts);
 
 ### Original API
 
-#### **getProvinces()**
+#### getProvinces()
 
 Returns an array of all province names in Sri Lanka.
 
@@ -234,11 +234,11 @@ const westernDistricts = getDistrictsByProvince("Western");
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-<li>1.Fork the repository</li>
-<li>2.Create your feature branch (`git checkout -b feature/amazing-feature`)</li>
-<li>3.Commit your changes (`git commit -m 'Add some amazing feature'`)</li>
-<li>4.Push to the branch (`git push origin feature/amazing-feature`)</li>
-<li>5.Open a Pull Request</li>
+1.Fork the repository
+2.Create your feature branch (`git checkout -b feature/amazing-feature`)
+3.Commit your changes (`git commit -m 'Add some amazing feature'`)
+4.Push to the branch (`git push origin feature/amazing-feature`)
+5.Open a Pull Request</li>
 
 ## 📄 License
 
@@ -251,6 +251,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
         <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patreon">
     </a>
 </p>
+
+## 💻 Author
 
 <p align="center">
     Made with ❤️ & ☕ by <a href="https://dinushchathurya.me/"><u style="color:#0193f0;">Dinush Chathurya</u></a>
