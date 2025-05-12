@@ -67,12 +67,6 @@ A modern TypeScript package providing data for all provinces and districts in Sr
 ```bash
 # Using npm
 npm install srilankan-provinces-districts
-
-# Using yarn
-yarn add srilankan-provinces-districts
-
-# Using pnpm
-pnpm add srilankan-provinces-districts
 ```
 
 ## 🚀 Usage
@@ -86,12 +80,16 @@ const provinceDistricts = require('srilankan-provinces-districts');
 // Get all province names as an array
 const provinces = provinceDistricts.getProvinces();
 console.log(provinces);
-// Output: ["Western", "Central", "Southern", "Northern", "Eastern", ...]
+
+## Output
+["Western", "Central", "Southern", "Northern", "Eastern", ...]
 
 // Get district names in a province
 const westernDistricts = provinceDistricts.getDistricts("Western");
 console.log(westernDistricts);
-// Output: ["Colombo", "Gampaha", "Kalutara"]
+
+## Output
+["Colombo", "Gampaha", "Kalutara"]
 ```
 
 ### TypeScript / ES Modules
@@ -117,47 +115,51 @@ import {
 // Get all provinces with detailed data
 const provinces: Province[] = getAllProvinces();
 console.log(provinces);
-/* Output: 
+
+## Output 
 [
   { id: "western", name: "Western", code: "WP" },
   { id: "central", name: "Central", code: "CP" },
   ...
 ]
-*/
+
 
 // Get a specific province by name (case-insensitive)
 const western: Province | undefined = getProvince('Western');
 console.log(western);
-/* Output:
+
+### Output
 {
   id: "western",
   name: "Western",
   code: "WP"
 }
-*/
 
 // Get districts in Western province with detailed data
 const westernDistricts: District[] = getDistrictsByProvince('Western');
 console.log(westernDistricts);
-/* Output:
+
+## Output
 [
   { id: "colombo", provinceId: "western", name: "Colombo", code: "CMB" },
   { id: "gampaha", provinceId: "western", name: "Gampaha", code: "GMP" },
   { id: "kalutara", provinceId: "western", name: "Kalutara", code: "KLT" }
 ]
-*/
+
 ```
 
 ## 📚 API Reference
 
 ### Original API
 
-#### getProvinces()
+#### **getProvinces()**
 
 Returns an array of all province names in Sri Lanka.
 
 ```bash
 const provinces = getProvinces();
+
+## Output
 // ["Western", "Central", "Southern", "Northern", "Eastern", ...]
 ```
 
@@ -166,6 +168,8 @@ Returns an array of all district names in a specific province.
 
 ```bash
 const districts = getDistricts("Western");
+
+## Output
 // ["Colombo", "Gampaha", "Kalutara"]
 ```
 
@@ -177,6 +181,8 @@ Returns a province by name or ID (case-insensitive).
 
 ```bash
 const province = getProvince("Western"); // Also works with "western" or "WESTERN"
+
+## Output
 // { id: "western", name: "Western", code: "WP" }
 ```
 
@@ -186,6 +192,8 @@ Returns an array of all provinces with full data.
 
 ```bash
 const provinces = getAllProvinces();
+
+## Output
 // [{ id: "western", name: "Western", code: "WP" }, ...]
 ```
 
@@ -195,6 +203,8 @@ Returns an array of all districts with full data.
 
 ```bash
 const districts = getAllDistricts();
+
+##Output
 // [{ id: "colombo", provinceId: "western", name: "Colombo", code: "CMB" }, ...]
 ```
 
@@ -204,11 +214,13 @@ Returns an array of districts in a specific province.
 
 ```bash
 const westernDistricts = getDistrictsByProvince("Western");
-// [
-//   { id: "colombo", provinceId: "western", name: "Colombo", code: "CMB" },
-//   { id: "gampaha", provinceId: "western", name: "Gampaha", code: "GMP" },
-//   { id: "kalutara", provinceId: "western", name: "Kalutara", code: "KLT" }
-// ]
+
+## Output
+[
+   { id: "colombo", provinceId: "western", name: "Colombo", code: "CMB" },
+   { id: "gampaha", provinceId: "western", name: "Gampaha", code: "GMP" },
+   { id: "kalutara", provinceId: "western", name: "Kalutara", code: "KLT" }
+]
 ```
 
 ## 🖥️ Framework Examples 
@@ -238,9 +250,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
     <a href="https://www.patreon.com/bePatron?u=35199964" target="_blank">
         <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patreon">
     </a>
-     <i class="fa fa-code" style="color:orange;"></i> with <i class="fa fa-heart" style="color:red;"></i> & <i class="fa fa-coffee" style="color:brown"></i> by <a href="https://dinushchathurya.me/"><u style="color:#0193f0;">Dinush Chathurya</u></a><i class="fa fa-user-ninja"></i>
 </p>
 
 <p align="center">
-     <i class="fa fa-code" style="color:orange;"></i> with <i class="fa fa-heart" style="color:red;"></i> & <i class="fa fa-coffee" style="color:brown"></i> by <a href="https://dinushchathurya.me/"><u style="color:#0193f0;">Dinush Chathurya</u></a><i class="fa fa-user-ninja"></i>
+    Made with ❤️ & ☕ by <a href="https://dinushchathurya.me/"><u style="color:#0193f0;">Dinush Chathurya</u></a>
 </p>
