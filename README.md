@@ -153,9 +153,7 @@ console.log(westernDistricts);
 
 ### Original API
 
-#### getProvinces()
-
-Returns an array of all province names in Sri Lanka.
+#### getProvinces()-Returns an array of all province names in Sri Lanka
 
 ```bash
 const provinces = getProvinces();
@@ -164,8 +162,7 @@ const provinces = getProvinces();
 // ["Western", "Central", "Southern", "Northern", "Eastern", ...]
 ```
 
-#### getDistricts(provinceName)
-Returns an array of all district names in a specific province.
+#### getDistricts(provinceName)-Returns an array of all district names in a specific province
 
 ```bash
 const districts = getDistricts("Western");
@@ -176,9 +173,7 @@ const districts = getDistricts("Western");
 
 ### TypeScript API
 
-#### getProvince(nameOrId)
-
-Returns a province by name or ID (case-insensitive).
+#### getProvince(nameOrId)-Returns a province by name or ID (case-insensitive)
 
 ```bash
 const province = getProvince("Western"); // Also works with "western" or "WESTERN"
@@ -187,9 +182,7 @@ const province = getProvince("Western"); // Also works with "western" or "WESTER
 // { id: "western", name: "Western", code: "WP" }
 ```
 
-#### getAllProvinces()
-
-Returns an array of all provinces with full data.
+#### getAllProvinces()-Returns an array of all provinces with full data
 
 ```bash
 const provinces = getAllProvinces();
@@ -198,9 +191,7 @@ const provinces = getAllProvinces();
 // [{ id: "western", name: "Western", code: "WP" }, ...]
 ```
 
-#### getAllDistricts()
-
-Returns an array of all districts with full data.
+#### getAllDistricts()-Returns an array of all districts with full data
 
 ```bash
 const districts = getAllDistricts();
@@ -209,9 +200,7 @@ const districts = getAllDistricts();
 // [{ id: "colombo", provinceId: "western", name: "Colombo", code: "CMB" }, ...]
 ```
 
-#### getDistrictsByProvince(provinceNameOrId)
-
-Returns an array of districts in a specific province.
+#### getDistrictsByProvince(provinceNameOrId)-Returns an array of districts in a specific province
 
 ```bash
 const westernDistricts = getDistrictsByProvince("Western");
